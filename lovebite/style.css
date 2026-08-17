@@ -1,0 +1,184 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+    background-color: rgb(228, 214, 159);
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    padding: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.navigation{
+    text-align:center;
+    color: rgb(114, 11, 11);
+    font-size: 5rem;
+}
+
+.mary1{
+    display: flex;
+    gap: 2rem;
+    margin: 0px 5px;
+    padding: 0px 5px;
+
+}
+.mary {
+    flex: 1;
+    border: 2px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 0px;
+    
+}
+
+.mary img{
+    border-radius: 30px;
+    width: 100%;
+}
+.nav{
+    padding: 2rem;
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(133, 2, 2);
+    
+}
+nav{
+    text-align: center;
+    padding: 2rem ;
+    background-color: rgb(4, 56, 4);
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 6rem;
+    text-align: left;
+    justify-content: center;
+
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+
+} 
+.contact{
+    text-align: center;
+    margin: 4rem;
+    color: rgb(40, 59, 40);
+    font-size: 5rem;
+}
+.p{
+    font-size: larger;
+    color: rgb(15, 33, 15);
+}
+.a{
+    display: flex;
+    align-items: end;
+}
+button>a{
+    background-color: rgb(7, 71, 7);
+    color: white;
+}
+
+.mary>p{
+    background-color: antiquewhite;
+}
+
+h2{
+    color: rgb(1, 56, 1);
+}
+
+
+/* =========================
+   MEDIA QUERY - TABLET
+   ========================= */
+@media screen and (max-width: 768px) {
+
+    .nav {
+        font-size: 26px;
+        padding: 18px;
+    }
+
+    nav {
+        padding: 12px;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 27px;
+        margin-top: 70px;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+
+    button {
+        padding: 13px 20px;
+    }
+}
+
+
+/* =========================
+   MEDIA QUERY - MOBILE
+   ========================= */
+@media screen and (max-width: 480px) {
+
+    .nav {
+        font-size: 22px;
+        padding: 15px;
+    }
+
+    nav {
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    nav ul li {
+        display: block;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    h3 {
+        font-size: 23px;
+        margin-top: 50px;
+        padding: 0 15px;
+    }
+
+    p {
+        font-size: 15px;
+        padding: 0 20px;
+    }
+
+    button {
+        width: 80%;
+        padding: 12px;
+    }
+
+    button a {
+        font-size: 14px;
+    }
+}
